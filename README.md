@@ -1,4 +1,4 @@
-# OSM_AUDIT_2025: Spatial Audit of Virtual Production Infrastructure
+# Shepperton Spatial Audit: Reproducible Audit of Virtual Production Infrastructure
 
 **Project Title:** The Material Footprint of Virtual Production: A Remote Sensing Assessment of Land-Cover Change and Biophysical Impacts at Shepperton Studios
 
@@ -7,6 +7,11 @@
 **Institution:** Queen Mary University of London (QMUL)
 
 **Status:** PMP ELSS Module Coursework (20% Assessment)
+
+**Citable repository snapshot:** **v2026.09.19**. See [CITATION.cff](CITATION.cff),
+[CHANGELOG.md](CHANGELOG.md), and [REPRODUCIBILITY.md](REPRODUCIBILITY.md). This tag
+freezes the repository evidence/method boundary; external Earth Engine and Overpass
+services may still change independently.
 
 ---
 
