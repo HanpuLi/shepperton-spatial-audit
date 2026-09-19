@@ -41,7 +41,7 @@ if snapshot not in query:
     errors.append(f"OSM extraction snapshot must remain pinned to {snapshot}")
 
 readme = (ROOT / "README.md").read_text()
-for marker in ("Scope statement.", "2021-06-01", "Longcross", "REPRODUCIBILITY.md"):
+for marker in ("Shepperton Spatial Audit:", "Scope statement.", "2021-06-01", "Longcross", "REPRODUCIBILITY.md", "v2026.09.19"):
     if marker not in readme:
         errors.append(f"README lost methodological boundary: {marker}")
 
@@ -49,9 +49,18 @@ repro = ROOT / "REPRODUCIBILITY.md"
 if not repro.is_file():
     errors.append("missing REPRODUCIBILITY.md dependency/evidence boundary")
 
+for required in ("VERSION", "CHANGELOG.md", "CITATION.cff", "REPRODUCIBILITY.md", "LICENSE"):
+    if not (ROOT / required).is_file():
+        errors.append(f"missing public release/reproducibility file: {required}")
+
 citation = (ROOT / "CITATION.cff").read_text()
 if "Shepperton Spatial Audit:" not in citation:
     errors.append("CITATION.cff title does not match the renamed repository")
+version = (ROOT / "VERSION").read_text().strip() if (ROOT / "VERSION").exists() else None
+if version != "2026.09.19":
+    errors.append(f"unexpected release snapshot version: {version!r}")
+if f'version: "{version}"' not in citation or 'date-released: "2026-09-19"' not in citation:
+    errors.append("CITATION.cff release metadata does not match VERSION/release date")
 
 if errors:
     raise SystemExit("\n".join(errors))
