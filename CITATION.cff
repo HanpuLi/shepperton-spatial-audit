@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this spatial-audit workflow, please cite the repository."
+title: "OSM_AUDIT_2025: Spatial Audit of Virtual Production Infrastructure"
+type: software
+authors:
+  - family-names: Li
+    given-names: Hanpu
+repository-code: "https://github.com/HanpuLi/-OSM_AUDIT_2025"
+url: "https://github.com/HanpuLi/-OSM_AUDIT_2025"
+license: MIT

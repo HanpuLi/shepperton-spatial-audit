@@ -59,8 +59,8 @@ divergence from the roadmap's "nested V" spec — stated here for reviewer trans
 (see `fit_scm` docstring).
 
 ### Files Created
-- [SyntheticControl_Analysis_TIER2_2026-06-15.py](file:///Users/caitlye/Desktop/学习/audit_env/-OSM_AUDIT_2025/analysis/SyntheticControl_Analysis_TIER2_2026-06-15.py)
-- [SyntheticControl_Analysis_TIER2_2026-06-15.png](file:///Users/caitlye/Desktop/学习/audit_env/-OSM_AUDIT_2025/visualisations/SyntheticControl_Analysis_TIER2_2026-06-15.png)
+- [SyntheticControl_Analysis_TIER2_2026-06-15.py](SyntheticControl_Analysis_TIER2_2026-06-15.py)
+- [SyntheticControl_Analysis_TIER2_2026-06-15.png](../visualisations/SyntheticControl_Analysis_TIER2_2026-06-15.png)
 
 ---
 
@@ -87,9 +87,9 @@ anthropogenic heat with no incoming-shortwave confound. Data via NASA AppEEARS p
   claim to **surface/daytime impervious heating, NOT a 24-h UHI**.
 
 ### Files Created
-- [ECOSTRESS_Night_TIER2_2026-06-16.py](file:///Users/caitlye/Desktop/学习/audit_env/-OSM_AUDIT_2025/analysis/ECOSTRESS_Night_TIER2_2026-06-16.py)
-- [ECOSTRESS_DayNight_TIER2_RESULTS_2026-06-16.md](file:///Users/caitlye/Desktop/学习/audit_env/-OSM_AUDIT_2025/analysis/ECOSTRESS_DayNight_TIER2_RESULTS_2026-06-16.md)
-- [ECOSTRESS_DayNight_2026-06-16.png](file:///Users/caitlye/Desktop/学习/audit_env/-OSM_AUDIT_2025/visualisations/ECOSTRESS_DayNight_2026-06-16.png)
+- [ECOSTRESS_Night_TIER2_2026-06-16.py](ECOSTRESS_Night_TIER2_2026-06-16.py)
+- [ECOSTRESS_DayNight_TIER2_RESULTS_2026-06-16.md](ECOSTRESS_DayNight_TIER2_RESULTS_2026-06-16.md)
+- [ECOSTRESS_DayNight_2026-06-16.png](../visualisations/ECOSTRESS_DayNight_2026-06-16.png)
 
 ---
 
@@ -111,8 +111,8 @@ anthropogenic heat with no incoming-shortwave confound. Data via NASA AppEEARS p
 - ET's status as "directional qualitative support only" is now principled, confirming the absence of a robust well-powered DiD signal.
 
 ### Files Created
-- [ReferenceET_TIER2_2026-06-15.py](file:///Users/caitlye/Desktop/学习/audit_env/-OSM_AUDIT_2025/analysis/ReferenceET_TIER2_2026-06-15.py)
-- [ReferenceET_TIER2_2026-06-15.png](file:///Users/caitlye/Desktop/学习/audit_env/-OSM_AUDIT_2025/visualisations/ReferenceET_TIER2_2026-06-15.png)
+- [ReferenceET_TIER2_2026-06-15.py](ReferenceET_TIER2_2026-06-15.py)
+- [ReferenceET_TIER2_2026-06-15.png](../visualisations/ReferenceET_TIER2_2026-06-15.png)
 
 ---
 
@@ -130,8 +130,8 @@ Instead of using a coarse Met Office SE England regional baseline (+0.64°C), we
 This confirms that the local anthropogenic heating signal is **confined to the parking core** and does not apply to the full polygon.
 
 ### Files Created
-- [GridCounterfactual_TIER2_2026-06-15.py](file:///Users/caitlye/Desktop/学习/audit_env/-OSM_AUDIT_2025/analysis/GridCounterfactual_TIER2_2026-06-15.py)
-- [GridCounterfactual_TIER2_2026-06-15.png](file:///Users/caitlye/Desktop/学习/audit_env/-OSM_AUDIT_2025/visualisations/GridCounterfactual_TIER2_2026-06-15.png)
+- [GridCounterfactual_TIER2_2026-06-15.py](GridCounterfactual_TIER2_2026-06-15.py)
+- [GridCounterfactual_TIER2_2026-06-15.png](../visualisations/GridCounterfactual_TIER2_2026-06-15.png)
 
 ---
 
@@ -148,8 +148,8 @@ This confirms that the local anthropogenic heating signal is **confined to the p
 - NDVI uses Sentinel-2 only, so it has no cross-sensor calibration issues.
 
 ### Files Created
-- [SensorRobustness_TIER2_2026-06-15.py](file:///Users/caitlye/Desktop/学习/audit_env/-OSM_AUDIT_2025/analysis/SensorRobustness_TIER2_2026-06-15.py)
-- [SensorRobustness_TIER2_2026-06-15.png](file:///Users/caitlye/Desktop/学习/audit_env/-OSM_AUDIT_2025/visualisations/SensorRobustness_TIER2_2026-06-15.png)
+- [SensorRobustness_TIER2_2026-06-15.py](SensorRobustness_TIER2_2026-06-15.py)
+- [SensorRobustness_TIER2_2026-06-15.png](../visualisations/SensorRobustness_TIER2_2026-06-15.png)
 
 ---
 
@@ -164,6 +164,6 @@ To test if the biophysical signature is generic to any green-belt development, w
 This confirms that Shepperton's massive NDVI collapse (−0.36) and parking-core warming (+1.08°C) are **specific to its industrial/studio design** (high-density concrete, large sound stages), and are not a generic consequence of green-belt releases.
 
 ### Files Created
-- [NonVP_ComparatorSelection_TIER2_2026-06-15.md](file:///Users/caitlye/Desktop/学习/audit_env/-OSM_AUDIT_2025/analysis/NonVP_ComparatorSelection_TIER2_2026-06-15.md)
-- [NonVP_ComparatorAnalysis_TIER2_2026-06-15.py](file:///Users/caitlye/Desktop/学习/audit_env/-OSM_AUDIT_2025/analysis/NonVP_ComparatorAnalysis_TIER2_2026-06-15.py)
-- [NonVP_ComparatorAnalysis_TIER2_2026-06-15.png](file:///Users/caitlye/Desktop/学习/audit_env/-OSM_AUDIT_2025/visualisations/NonVP_ComparatorAnalysis_TIER2_2026-06-15.png)
+- [NonVP_ComparatorSelection_TIER2_2026-06-15.md](NonVP_ComparatorSelection_TIER2_2026-06-15.md)
+- [NonVP_ComparatorAnalysis_TIER2_2026-06-15.py](NonVP_ComparatorAnalysis_TIER2_2026-06-15.py)
+- [NonVP_ComparatorAnalysis_TIER2_2026-06-15.png](../visualisations/NonVP_ComparatorAnalysis_TIER2_2026-06-15.png)

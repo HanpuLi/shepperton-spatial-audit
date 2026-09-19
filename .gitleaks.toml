@@ -1,0 +1,8 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Spelthorne Idox public planning-record keyVal; it is a page locator, not a credential"
+regexTarget = "match"
+paths = ['''documentation/construction_timeline_sources\.md''']
+regexes = ['''keyVal=QH49V2PBIJG00''']
