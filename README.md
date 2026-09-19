@@ -322,7 +322,7 @@ All `.js` scripts (`04`, `06`, `06b`, `08`, `10`) are designed for the [Google E
 
 | Item | Value |
 |:-----|:------|
-| **Repository** | [github.com/HanpuLi/-OSM_AUDIT_2025](https://github.com/HanpuLi/-OSM_AUDIT_2025) |
+| **Repository** | [github.com/HanpuLi/shepperton-spatial-audit](https://github.com/HanpuLi/shepperton-spatial-audit) |
 | **Data Extraction Date** | 3 March 2026 |
 | **Spatial Projection** | British National Grid (EPSG:27700) |
 | **OSM Pipeline** | Overpass API (OpenStreetMap contributors, 2015) |
