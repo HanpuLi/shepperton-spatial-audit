@@ -1,7 +1,7 @@
 shapely~=2.1.2
 pyproj~=3.7.2
 pandas~=3.0.1
-matplotlib~=3.10.8
+matplotlib~=3.11.2
 numpy~=2.4.2
 pymannkendall~=1.4.3
 scipy~=1.17.1
