@@ -320,6 +320,8 @@ All `.js` scripts (`04`, `06`, `06b`, `08`, `10`) are designed for the [Google E
 
 ### 6.3 Transparency, Reproducibility & Replicability
 
+See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the dependency-upgrade policy, fixed evidence boundaries, and the distinction between import compatibility and numerical reproduction.
+
 | Item | Value |
 |:-----|:------|
 | **Repository** | [github.com/HanpuLi/shepperton-spatial-audit](https://github.com/HanpuLi/shepperton-spatial-audit) |

@@ -1,15 +1,8 @@
 version: 2
 updates:
-  - package-ecosystem: pip
-    directory: /
-    schedule:
-      interval: weekly
-    open-pull-requests-limit: 5
-    groups:
-      earth-engine-auth:
-        patterns:
-          - "earthengine-api"
-          - "google-auth"
+  # Scientific Python dependency ranges are reproducibility-sensitive and are
+  # reviewed manually with numerical outputs; security updates remain enabled
+  # in the repository settings.
   - package-ecosystem: github-actions
     directory: /
     schedule:

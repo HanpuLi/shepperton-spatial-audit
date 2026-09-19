@@ -41,9 +41,17 @@ if snapshot not in query:
     errors.append(f"OSM extraction snapshot must remain pinned to {snapshot}")
 
 readme = (ROOT / "README.md").read_text()
-for marker in ("Scope statement.", "2021-06-01", "Longcross"):
+for marker in ("Scope statement.", "2021-06-01", "Longcross", "REPRODUCIBILITY.md"):
     if marker not in readme:
         errors.append(f"README lost methodological boundary: {marker}")
+
+repro = ROOT / "REPRODUCIBILITY.md"
+if not repro.is_file():
+    errors.append("missing REPRODUCIBILITY.md dependency/evidence boundary")
+
+citation = (ROOT / "CITATION.cff").read_text()
+if "Shepperton Spatial Audit:" not in citation:
+    errors.append("CITATION.cff title does not match the renamed repository")
 
 if errors:
     raise SystemExit("\n".join(errors))
