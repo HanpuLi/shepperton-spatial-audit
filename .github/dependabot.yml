@@ -1,10 +1,8 @@
 version: 2
 updates:
-  - package-ecosystem: pip
-    directory: /
-    schedule:
-      interval: weekly
-    open-pull-requests-limit: 5
+  # Scientific Python dependency ranges are reproducibility-sensitive and are
+  # reviewed manually with numerical outputs; security updates remain enabled
+  # in the repository settings.
   - package-ecosystem: github-actions
     directory: /
     schedule:
