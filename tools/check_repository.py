@@ -20,7 +20,7 @@ for rel in tracked:
     if Path(rel).suffix.lower() in {".nc", ".zip"} or Path(rel).name == ".DS_Store":
         errors.append(f"raw/generated local artifact is tracked: {rel}")
 
-home_markers = ("/" + "Users/", "/home/")
+home_markers = ("/" + "Users/", "/" + "home/")
 for rel in tracked:
     path = ROOT / rel
     if path.suffix.lower() in {".pdf", ".pptx", ".png", ".jpg", ".jpeg", ".gif"}:
