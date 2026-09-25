@@ -6,9 +6,11 @@
 
 **Portfolio:** [Research / editions / systems](https://hanpuli.github.io/#work)
 
-**Institution:** Queen Mary University of London (QMUL)
+**Institution:** Queen Mary University of London (QMUL), School of the Arts
 
-**Status:** PMP ELSS Module Coursework (20% Assessment)
+**Programme context:** Pre-Masters Graduate Diploma in Humanities and Social Sciences
+
+**Status:** ELSS module coursework (20% assessment)
 
 **Citable repository snapshot:** **v2026.09.19**. See [CITATION.cff](CITATION.cff),
 [CHANGELOG.md](CHANGELOG.md), and [REPRODUCIBILITY.md](REPRODUCIBILITY.md). This tag
