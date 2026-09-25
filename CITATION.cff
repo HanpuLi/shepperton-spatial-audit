@@ -5,8 +5,9 @@ type: software
 authors:
   - family-names: Li
     given-names: Hanpu
+    website: "https://hanpuli.github.io/"
 repository-code: "https://github.com/HanpuLi/shepperton-spatial-audit"
-url: "https://github.com/HanpuLi/shepperton-spatial-audit"
+url: "https://hanpuli.github.io/#work"
 version: "2026.09.19"
 date-released: "2026-09-19"
 license: MIT
