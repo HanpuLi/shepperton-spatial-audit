@@ -2,15 +2,11 @@
 
 **Project Title:** The Material Footprint of Virtual Production: A Remote Sensing Assessment of Land-Cover Change and Biophysical Impacts at Shepperton Studios
 
-**Author:** [Hanpu Li / 李函璞](https://hanpuli.github.io/) (also credited as Caitlyn Lye)
+**Author:** [Hanpu Li / 李函璞](https://hanpuli.github.io/)
 
 **Portfolio:** [Research / editions / systems](https://hanpuli.github.io/#work)
 
 **Institution:** Queen Mary University of London (QMUL), School of the Arts
-
-**Programme context:** Pre-Masters Graduate Diploma in Humanities and Social Sciences
-
-**Status:** ELSS module coursework (20% assessment)
 
 **Citable repository snapshot:** **v2026.09.19**. See [CITATION.cff](CITATION.cff),
 [CHANGELOG.md](CHANGELOG.md), and [REPRODUCIBILITY.md](REPRODUCIBILITY.md). This tag
@@ -376,5 +372,4 @@ See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the dependency-upgrade policy, 
 
 ## 8. Licensing
 
-This project is submitted for the PMP ELSS Module assessment at Queen Mary University of London.  
-Copyright © 2026 Hanpu Li (Caitlyn Lye). Released under the MIT License.
+Copyright © 2026 Hanpu Li. Released under the MIT License.
